@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemon_faster_snacks",
+  "version": "${version}",
+  "name": "Cobblemon Faster Snacks",
+  "description": "Removes the server lag of Cobblemon's Poké Snacks without changing what they do: the same Pokémon, at the same places, with the same odds. Server-side; optional on clients.",
+  "authors": ["coquelicot"],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/cobblemon_faster_snacks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["fr.coquelicot.fastersnacks.CobblemonFasterSnacks"${benchEntrypoint}]
+  },
+  "mixins": ["cobblemon_faster_snacks.mixins.json"${benchMixins}],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "fabric-api": "*",
+    "cobblemon": "~1.8.4"
+  }
+}
