@@ -1,7 +1,28 @@
+# Gradle / Loom
 .gradle/
 build/
-run/
 out/
 bin/
-*.iml
+run/
+remappedSrc/
+.architectury-transformer/
+
+# IDEs
 .idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+.factorypath
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
